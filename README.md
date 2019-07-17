@@ -1,11 +1,11 @@
 
-#Loops
+# Loops
 
-####JavaScript *loops* are used to **repeatedly run a block of code** - until a certain condition is met.
+#### JavaScript loops are used to **repeatedly run a block of code** - until a certain condition is met.
 There are several options to run a block of code, including: **while**, **do-while**, **for** and **for-in**.
 
 
-##While Loop
+## While Loop
 
 var sum = 0;
 var number = 1;
@@ -18,7 +18,7 @@ alert("Sum = " + sum); *// -- | "Sum = 15"*
 #### The condition is first evaluated. If true, the block of statements following the while statement is executed. 
 
 
-##Do-While Loop
+## Do-While Loop
 
 var sum = 0;
 var number = 1;
@@ -32,7 +32,7 @@ alert("Sum = " + sum);
 #### The Do-While loop is executed **at least once** whereas the while loop may not execute at all.
 
 
-##For Loop
+## For Loop
 
 var sum = 0; 		
 **for** (var i = 1; i <= 5; i++) {
@@ -48,7 +48,7 @@ It consists of 3 parts:
 3-Updater **(i++)**
 
 
-##For-In Loop
+## For-In Loop
 
 var student = { name:"Bill", age: 25, degree: "Masters" };
 **for** (var item **in** student) {
