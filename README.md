@@ -68,6 +68,19 @@ var student = { name:"Bill", age: 25, degree: "Masters" };
 *Output/Process:*  
 *("Bill", then 25, then "Masters")*  
 
+
+## For-Of Loop
+
+const array = ['a', 'b', 'c', 'd'];  
+for (const item of array) {  
+	console.log(item)  
+}  
+*Output/Process:* a, b, c, d.
+
+
+#### The for...of statement creates a loop that iterates over iterable objects.
+
+
 ## Break
 
 var sum = 0;  
@@ -84,8 +97,16 @@ alert("Sum = " + sum); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 *Output/Process:*  
 *(Sum = 1275 instead of 50005000 because of **Break** statement.)*  
 
-## Continue 
+## Continue
+
+for (var i = 1; i <= 10; i++)  
+{  
+   if ((i % 2) != 0) {  
+      continue;  
+   }  
+   alert(i);          
+}  
 
 
-#### 
+#### A Continue statement in a loop stops the execution of the current iteration and goes back to the beginning of the loop to begin the next iteration.  
 
