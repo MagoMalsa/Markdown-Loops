@@ -9,9 +9,9 @@ There are several options to run a block of code, including: **while**, **do-whi
 
 var sum = 0;  
 var number = 1;  
-**while** (number <= 5) {  *// -- condition | (als 1 kleiner is of gelijk aan 5 voor de volgende code uit.)*  
-  sum = sum + number;        *// -- body | 0+1=1 (sum + number = sum), 1+2=3, 3+3= 6, 6+4=10, sum=10+5*  
-  number++;             *// -- updater | telkens +1*  
+**while** (number <= 5) {  *// (als 1 kleiner is of gelijk aan 5 voor de volgende code uit.)*  
+  sum = sum + number;        *//  0+1=1 (sum + number = sum), 1+2=3, 3+3= 6, 6+4=10, sum=10+5*  
+  number++;             *// telkens +1*  
 }\
 alert("Sum = " + sum); *// -- | "Sum = 15"*
 
@@ -36,7 +36,7 @@ alert("Sum = " + sum);
 
 var sum = 0;  
 **for** (var i = 1; i <= 5; i++) {  
-   sum = sum + i;	
+   sum = sum + i;  	
 }
 alert("Sum = " + sum);	
 
@@ -58,6 +58,23 @@ var student = { name:"Bill", age: 25, degree: "Masters" };
 
 #### A For-In Loop iterates through the properties of an object (and executes the loop's body once for each enumerable property of the object.)
 
+## Break
+
+var sum = 0;
+for (var i = 1; i <= 10000; i++) {
+   sum += i;
+   if (i === 50) {
+       break;    // Sum = 1275 instead of 50005000 because of **Break** statement.
+   }
+}
+alert("Sum = " + sum);       // => Sum = 1275 
 
 
+#### The "number++;" statement won't be executed when the loop is entered for the 50th time.
+
+
+## Continue 
+
+
+#### 
 
