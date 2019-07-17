@@ -13,7 +13,7 @@ There are several options to run a block of code, including:
 
 var sum = 0;  
 var number = 1;  
-**while** (number <= 5) {  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;(If 1 is smaller or equal to 5 then perform the following code.)*  
+**while** (number <= 5) {  
   sum = sum + number;
   number++;  
 }  
@@ -21,7 +21,7 @@ alert("Sum = " + sum);
 
 #### The condition is first evaluated. If true, the block of statements following the while statement is executed. 
 
-*Output/Process:*  
+*Output/Process	:*  
 *(If 1 is smaller or equal to 5 then perform the following code.)*  
 *(1+2=3, 3+3= 6, 6+4=10, sum=10+5)*  
 
