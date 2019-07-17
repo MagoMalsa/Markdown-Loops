@@ -2,16 +2,20 @@
 # Loops
 
 JavaScript loops are used to **repeatedly run a block of code** - until a certain condition is met.
-There are several options to run a block of code, including: **while**, **do-while**, **for** and **for-in**.
+There are several options to run a block of code, including:   
+-**while**   
+-**do-while**   
+-**for**  
+-**for-in**  
 
 
 ## While Loop
 
 var sum = 0;  
 var number = 1;  
-**while** (number <= 5) {  *// (als 1 kleiner is of gelijk aan 5 voor de volgende code uit.)*  
-  sum = sum + number;        *//  0+1=1 (sum + number = sum), 1+2=3, 3+3= 6, 6+4=10, sum=10+5*  
-  number++;             *// telkens +1*  
+**while** (number <= 5) {  &nbsp;&nbsp;&nbsp;*// (If 1 is smaller or equal to 5 then perform the following code.)*  
+  sum = sum + number;    &nbsp;&nbsp;&nbsp; *//  0+1=1 (sum + number = sum), 1+2=3, 3+3= 6, 6+4=10, sum=10+5*  
+  number++;        &nbsp;&nbsp;&nbsp;&nbsp;*// telkens +1*  
 }\
 alert("Sum = " + sum); *// -- | "Sum = 15"*
 
