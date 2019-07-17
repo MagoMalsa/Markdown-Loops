@@ -100,14 +100,17 @@ alert("Sum = " + sum); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Continue
 
-for (var i = 1; i <= 10; i++)  
-{  
-   if ((i % 2) != 0) {  
-      continue;  
-   }  
-   alert(i);          
+for (i = 0; i < 10; i++) {  
+if (i == 5) {  
+ 
+continue;  
+}  
+console.log(i);  
 }  
 
 
 #### A Continue statement in a loop stops the execution of the current iteration and goes back to the beginning of the loop to begin the next iteration.  
+
+*Output/Process:*  
+(It will keep looping until it reaches '5', then it jumps to new loop until '5'.)
 
