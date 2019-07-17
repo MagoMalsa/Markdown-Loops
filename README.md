@@ -2,7 +2,7 @@
 # Loops
 
 #### JavaScript loops are used to **repeatedly run a block of code** - until a certain condition is met.
-There are several options to run a block of code, including: **while**, **do-while**, **for** and **for-in**.
+#### There are several options to run a block of code, including: **while**, **do-while**, **for** and **for-in**.
 
 
 ## While Loop
