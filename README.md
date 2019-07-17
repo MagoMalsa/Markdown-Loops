@@ -21,8 +21,9 @@ alert("Sum = " + sum);
 
 #### The condition is first evaluated. If true, the block of statements following the while statement is executed. 
 
-Output: (If 1 is smaller or equal to 5 then perform the following code.)  
-(1+2=3, 3+3= 6, 6+4=10, sum=10+5*)  
+*Output:*  
+*(If 1 is smaller or equal to 5 then perform the following code.)*  
+*(1+2=3, 3+3= 6, 6+4=10, sum=10+5)*  
 
 ## Do-While Loop
 
@@ -64,7 +65,8 @@ var student = { name:"Bill", age: 25, degree: "Masters" };
 
 #### A For-In Loop iterates through the properties of an object (and executes the loop's body once for each enumerable property of the object.)
 
-Output: ("Bill", then 25, then "Masters")
+*Output:*  
+*("Bill", then 25, then "Masters")*  
 
 ## Break
 
@@ -79,7 +81,8 @@ alert("Sum = " + sum); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 #### The "number++;" statement won't be executed when the loop is entered for the 50th time.
 
-Output: (Sum = 1275 instead of 50005000 because of **Break** statement.)
+*Output:*  
+*(Sum = 1275 instead of 50005000 because of **Break** statement.)*  
 
 ## Continue 
 
