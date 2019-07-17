@@ -7,11 +7,11 @@ There are several options to run a block of code, including: **while**, **do-whi
 
 ## While Loop
 
-var sum = 0;\
-var number = 1;\
-**while** (number <= 5) {  *// -- condition | (als 1 kleiner is of gelijk aan 5 voor de volgende code uit.)*\
-  sum = sum + number;        *// -- body | 0+1=1 (sum + number = sum), 1+2=3, 3+3= 6, 6+4=10, sum=10+5*\
-  number++;             *// -- updater | telkens +1*\
+var sum = 0;  
+var number = 1;  
+**while** (number <= 5) {  *// -- condition | (als 1 kleiner is of gelijk aan 5 voor de volgende code uit.)*  
+  sum = sum + number;        *// -- body | 0+1=1 (sum + number = sum), 1+2=3, 3+3= 6, 6+4=10, sum=10+5*  
+  number++;             *// -- updater | telkens +1*  
 }\
 alert("Sum = " + sum); *// -- | "Sum = 15"*
 
@@ -22,10 +22,10 @@ alert("Sum = " + sum); *// -- | "Sum = 15"*
 
 var sum = 0;\
 var number = 1;\
-**do** {\
-   sum += number;\
-   number++;\
-} **while** (number <= 10);   *// 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15, 15+6=21, 21+7=28, 28+8=36, 36+9=45, 45+10= 55*\
+**do** {  
+   sum += number;  
+   number++;  
+} **while** (number <= 10);   *// 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15, 15+6=21, 21+7=28, 28+8=36, 36+9=45, 45+10= 55*  
 alert("Sum = " + sum);
 
 
@@ -34,25 +34,25 @@ alert("Sum = " + sum);
 
 ## For Loop
 
-var sum = 0;\
-**for** (var i = 1; i <= 5; i++) {\
+var sum = 0;  
+**for** (var i = 1; i <= 5; i++) {  
    sum = sum + i;	
 }
 alert("Sum = " + sum);	
 
 
 #### In a For-Loop the following is called an iteration statement => (var i = 1; i <= 50; i++) 
-It consists of 3 parts: 
-1-Initializer **(var i = 1;)**\
-2-Test Condition **(i <= 50;)**\
+It consists of 3 parts:   
+1-Initializer **(var i = 1;)**  
+2-Test Condition **(i <= 50;)**  
 3-Updater **(i++)**
 
 
 ## For-In Loop
 
-var student = { name:"Bill", age: 25, degree: "Masters" };\
-**for** (var item **in** student) {\
-   alert(student[item]);     // => "Bill", then 25, then "Masters"\
+var student = { name:"Bill", age: 25, degree: "Masters" };  
+**for** (var item **in** student) {  
+   alert(student[item]);     // => "Bill", then 25, then "Masters"  
 }
 
 
