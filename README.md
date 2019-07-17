@@ -6,7 +6,8 @@ There are several options to run a block of code, including:
 -**While**   
 -**Do-while**   
 -**For**  
--**For-in**  
+-**For-In**  
+-**For-Of**  
 
 
 ## While Loop
@@ -95,7 +96,7 @@ alert("Sum = " + sum); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 #### The "number++;" statement won't be executed when the loop is entered for the 50th time.
 
 *Output/Process:*  
-*(Sum = 1275 instead of 50005000 because of **Break** statement.)*  
+*(Sum = 1275 instead of 50005000 because of the Break statement.)*  
 
 ## Continue
 
