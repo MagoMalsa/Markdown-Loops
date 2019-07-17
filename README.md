@@ -78,7 +78,7 @@ for (const item of array) {
 *Output/Process:* a, b, c, d.
 
 
-#### The for...of statement creates a loop that iterates over iterable objects.
+#### The For-of statement creates a loop that iterates over iterable objects.
 
 
 ## Break
